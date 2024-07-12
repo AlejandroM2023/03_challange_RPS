@@ -21,8 +21,8 @@ function win(input,random){
 function getGif(category){
     const report = document.getElementById("message");
     const ran = Math.floor(Math.random() * 4998);
-
-    fetch(`http://api.giphy.com/v1/gifs/search?q=${category}&api_key=C6HtXVoe2eDBQEkUyhp7YwmCYlIAhyGz&limit=1&offset=${ran}PLACEHOLDERBLOCK LINK`)
+//`http://apiPLACEHOLDER.giPLACEHOLDERphy.com/v1/gifs/search?q=${category}&api_key=CPLACEHOLDER6HtXVoe2eDBQEkUyhp7YwmCYlIAhyGz&limit=1&offset=${ran}`
+    fetch("")
         .then(response => response.json() )
         .then(content => {console.log(content.data)
             let img = document.createElement('img');
